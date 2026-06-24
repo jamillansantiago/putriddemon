@@ -1,3 +1,19 @@
+Package: bag.xml.tuberepair
+Name: TubeRepair [BETA]
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Maintainer: bag.xml, Requis
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Version: 1.1-Beta-2
+Installed-Size: 216
+Filename: debs/bag.xml.tuberepair_1.1-Beta-2_iphoneos-arm.deb
+Size: 101918
+MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
+
 Package: uk.invoxiplaygames.checkmatestore
 Name: Checkmate, Store!
 Depends: mobilesubstrate, firmware (>= 2.0)
@@ -13,6 +29,20 @@ Filename: debs/checkmatestore-1.2.deb
 Size: 5200
 MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
 
+Package: com.bagxml.storelayoutsfix
+Name: StoreLayoutsFix [BETA]
+Description: This tweak fixes current layout problems with the iTunes Store, and any other app that depends on it. Mostly used on iOS 6, can also fix iOS 6 era Podcasts and iBooks running on 7.x.
+Maintainer: bag.xml
+Author: bag.xml, Requis
+Section: Tweaks
+Depends: mobilesubstrate, firmware(<==6)
+Architecture: iphoneos-arm
+Version: 1.0-3+debug
+Installed-Size: 76
+Filename: debs/com.bagxml.storelayoutsfix_1.0-3+debug_iphoneos-arm.deb
+Size: 6250
+MD5sum: 9d3e9ea60a02813ff706c53f6ffc89c4
+
 Package: com.iprogramincpp.purplecord
 Name: Purplecord
 Description: A Discord client for iOS 3+.
@@ -25,6 +55,18 @@ Installed-Size: 3856
 Filename: debs/com.iprogramincpp.purplecord_0.1.2_iphoneos-armv6.deb
 Size: 1402496
 MD5sum: c1f590cb2ace2b0eea54dab448d94c49
+
+Package: com.ivintagelover.solidglass
+Name: Solid Glass
+Version: 1.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Author: iVintageLover
+Maintainer: iVintageLover
+Description: iOS 26 Dev Beta 1 icons for older devices.
+Filename: debs/com.ivintagelover.solidglass_Rootful.deb
+Size: 1606444
+MD5sum: 56ce0a06cd328e80a29be8061724c0c9
 
 Package: com.nablac0d3.sslkillswitch2
 Name: SSL Kill Switch 2
