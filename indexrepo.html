@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putrid Demon's Repo</title>
+    <style>
+        :root {
+            --bg-color: #0d0d11;
+            --card-bg: #16161f;
+            --accent-color: #ff3b30; /* Un rojo demoníaco/iOS */
+            --text-color: #ffffff;
+            --text-secondary: #8e8e93;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .repo-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, #2c0000 0%, #110000 100%);
+            border: 2px solid var(--accent-color);
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .repo-icon span {
+            font-size: 45px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.5px;
+        }
+
+        p.subtitle {
+            color: var(--text-secondary);
+            font-size: 16px;
+            margin: 0 0 30px 0;
+        }
+
+        .btn-add {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            padding: 14px 28px;
+            border-radius: 12px;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            box-shadow: 0 4px 15px rgba(255, 59, 48, 0.4);
+            margin-bottom: 30px;
+        }
+
+        .btn-add:active {
+            transform: scale(0.97);
+            background-color: #e03228;
+        }
+
+        .info-box {
+            background-color: var(--card-bg);
+            border-radius: 14px;
+            padding: 20px;
+            text-align: left;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .info-box h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-box p {
+            margin: 0 0 12px 0;
+            font-size: 14px;
+            color: #d1d1d6;
+            line-height: 1.4;
+        }
+
+        .url-display {
+            background-color: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 13px;
+            word-break: break-all;
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-color);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="repo-icon">
+            <span>😈</span>
+        </div>
+
+        <h1>Putrid Demon's Repo</h1>
+        <p class="subtitle">Tweaks oficiales, temas y más.</p>
+
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://TU_URL_DEL_REPO_AQUI/" class="btn-add">
+            ➕ Add to Cydia
+        </a>
+
+        <div class="info-box">
+            <h3>Instalación Manual</h3>
+            <p>Si el botón no te abre la aplicación, puedes añadir la fuente de manera manual copiando la siguiente dirección en Cydia (Fuentes > Fuentes > Añadir):</p>
+            <div class="url-display">https://TU_URL_DEL_REPO_AQUI/</div>
+        </div>
+
+        <footer>
+            &copy; 2026 Putrid Demon. Todos los derechos reservados.
+        </footer>
+    </div>
+
+</body>
+</html>
