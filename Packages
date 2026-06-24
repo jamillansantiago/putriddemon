@@ -1,1 +1,71 @@
+Package: com.invoxiplaygames.checkmatestore
+Name: Checkmate Store
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Consigue que la App Store te deje descargar versiones antiguas compatibles de apps en iOS antiguos sin dar error.
+Maintainer: Putrid Demon
+Filename: debs/checkmatestore-1.2.deb
+Section: Tweaks
 
+Package: com.iprogramincpp.purplecord
+Name: Purplecord
+Version: 0.1.2
+Architecture: iphoneos-armv6
+Description: Cliente clásico de Discord para versiones antiguas de iOS.
+Maintainer: Putrid Demon
+Filename: debs/com.iprogramincpp.purplecord_0.1.2_iphoneos-armv6.deb
+Section: Tweaks
+
+Package: com.nablac0d3.sslkillswitch2
+Name: SSL Kill Switch 2
+Version: 0.14
+Architecture: iphoneos-arm
+Description: Deshabilita la validación de certificados SSL en el sistema para depuración y apps antiguas.
+Maintainer: Putrid Demon
+Filename: debs/com.nablac0d3.sslkillswitch2_0.14.deb
+Section: Tweaks
+
+Package: com.skyglow.itunesstorex
+Name: iTunesStoreX
+Version: 2.5
+Architecture: iphoneos-arm
+Description: Corrige y revive funciones de la tienda iTunes Store en sistemas operativos antiguos.
+Maintainer: Putrid Demon
+Filename: debs/com.skyglow.itunesstorex_2.5_iphoneos-arm.deb
+Section: Tweaks
+
+Package: com.invoxiplaygames.cydiahttpatch
+Name: Cydia HTTPatch
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Parche esencial para permitir conexiones HTTP/HTTPS heredadas en Cydia sobre versiones antiguas de iOS.
+Maintainer: Putrid Demon
+Filename: debs/cydiahttpatch-1.0.deb
+Section: Tweaks
+
+Package: com.discordclassic
+Name: Discord Classic
+Version: 0.8.5
+Architecture: iphoneos-arm
+Description: Otra alternativa para conectar con Discord desde dispositivos iOS clásicos.
+Maintainer: Putrid Demon
+Filename: debs/discordclassic-0.8.5.deb
+Section: Tweaks
+
+Package: net.nekokawa.re5tore
+Name: re5tore
+Version: 0.0.10-8+debug
+Architecture: iphoneos-arm
+Description: Herramienta útil para la restauración y personalización de firmwares clásicos.
+Maintainer: Putrid Demon
+Filename: debs/net.nekokawa.re5tore_0.0.10-8+debug_iphoneos-arm.deb
+Section: Tweaks
+
+Package: org.angelxwind.tubefixer
+Name: TubeFixer
+Version: 2.0-152-RC1
+Architecture: iphoneos-arm
+Description: ¡El mítico tweak de julzz/AngelXWind! Repara la app nativa de YouTube clásica en iOS 3 a iOS 6 requiriendo una API Key de Google.
+Maintainer: Putrid Demon
+Filename: debs/tubefixer-2.0-152-RC1.deb
+Section: Tweaks
