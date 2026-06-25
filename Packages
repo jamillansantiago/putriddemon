@@ -160,3 +160,15 @@ Filename: debs/tubefixer-2.0-152-RC1.deb
 Size: 27972
 MD5sum: 3099d5610e8e73426a947fcf646fffcf
 
+Package: com.saurik.substrate.safemode
+Name: Substrate Safe Mode
+Version: 0.9.5000
+Architecture: iphoneos-arm
+Section: Tweaks
+Priority: optional
+Author: Jay Freeman (saurik)
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Description: safe mode safety extension (safe)
+
