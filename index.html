@@ -1,138 +1,104 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
 <title>Putrid Demon's Repo</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #f2f2f2;
+    color: #333;
 }
 
-body{
-    font-family:Helvetica, Arial, sans-serif;
-    background:linear-gradient(to bottom,#d7dce5,#f4f4f4);
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.header {
+    background: #4a6ea9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #2f4f7f;
 }
 
-.card{
-    width:360px;
-    background:white;
-    border-radius:18px;
-    overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.25);
+.header h1 {
+    margin: 0;
+    font-size: 22px;
 }
 
-.banner{
-    background:linear-gradient(#5fa8ff,#2d6cff);
-    color:white;
-    text-align:center;
-    padding:35px 20px;
+.box {
+    margin: 15px;
+    background: white;
+    border: 1px solid #cfcfcf;
 }
 
-.icon{
-    width:90px;
-    height:90px;
-    margin:0 auto 15px;
-    border-radius:20px;
-    background:linear-gradient(#ffffff,#dce8ff);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:50px;
-    box-shadow:0 4px 10px rgba(0,0,0,.2);
+.box-title {
+    background: #e5e5e5;
+    padding: 8px;
+    font-weight: bold;
+    border-bottom: 1px solid #cfcfcf;
 }
 
-.banner h1{
-    font-size:28px;
+.box-content {
+    padding: 12px;
 }
 
-.banner p{
-    margin-top:8px;
-    opacity:.9;
+.button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #4a6ea9;
+    padding: 12px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.content{
-    padding:25px;
-    text-align:center;
-}
-
-.repo-url{
-    background:#f3f3f3;
-    border-radius:10px;
-    padding:12px;
-    margin:15px 0;
-    color:#555;
-    font-size:13px;
-    word-break:break-all;
-}
-
-.button{
-    display:inline-block;
-    background:linear-gradient(#5fd45f,#2da92d);
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-    font-size:18px;
-    padding:14px 30px;
-    border-radius:12px;
-    box-shadow:0 4px 8px rgba(0,0,0,.2);
-    transition:.2s;
-}
-
-.button:hover{
-    transform:scale(1.05);
-}
-
-.footer{
-    padding:15px;
-    text-align:center;
-    color:#888;
-    font-size:12px;
-    border-top:1px solid #eee;
+.footer {
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+    margin: 20px;
 }
 </style>
 </head>
+
 <body>
 
-<div class="card">
+<div class="header">
+    <h1>Putrid Demon's Repo</h1>
+</div>
 
-    <div class="banner">
-
-        <div class="icon">📦</div>
-
-        <h1>Putrid Demon's Repo</h1>
-        <p>Bienvenido a mi repo de Cydia</p>
-
+<div class="box">
+    <div class="box-title">
+        Bienvenido
     </div>
 
-    <div class="content">
+    <div class="box-content">
+        Gracias por visitar Putrid Demon's Repo.
 
-        <p>
-            Tweaks, apps y utilidades para dispositivos iOS.
-        </p>
+        <br><br>
 
-        <div class="repo-url">
-            https://jamillansantiago.github.io/putriddemon/
-        </div>
+        Encontrarás tweaks, aplicaciones y utilidades para dispositivos iOS.
 
         <a class="button"
         href="cydia://url/https://cydia.saurik.com/api/share#?source=https://jamillansantiago.github.io/putriddemon/">
             Add to Cydia
         </a>
+    </div>
+</div>
 
+<div class="box">
+    <div class="box-title">
+        Repo URL
     </div>
 
-    <div class="footer">
-        © Putrid Demon's Repo
+    <div class="box-content">
+        https://jamillansantiago.github.io/putriddemon/
     </div>
+</div>
 
+<div class="footer">
+    © Putrid Demon's Repo
 </div>
 
 </body>
