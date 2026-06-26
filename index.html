@@ -1,63 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Putrid Demon's Repo</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    background: #f2f2f2;
-    color: #333;
+body{
+    margin:0;
+    background:#d9d9d9;
+    font-family:Helvetica,Arial,sans-serif;
 }
 
-.header {
-    background: #4a6ea9;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    border-bottom: 1px solid #2f4f7f;
+.header{
+    background:linear-gradient(#6e87a6,#536f92);
+    color:#fff;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    padding:12px;
+    border-bottom:1px solid #3d536d;
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 22px;
+.card{
+    background:#fff;
+    margin:10px;
+    border:1px solid #bdbdbd;
 }
 
-.box {
-    margin: 15px;
-    background: white;
-    border: 1px solid #cfcfcf;
+.top{
+    display:flex;
+    align-items:center;
+    padding:10px;
 }
 
-.box-title {
-    background: #e5e5e5;
-    padding: 8px;
-    font-weight: bold;
-    border-bottom: 1px solid #cfcfcf;
+.icon{
+    width:57px;
+    height:57px;
+    border-radius:10px;
+    border:1px solid #aaa;
+    margin-right:10px;
 }
 
-.box-content {
-    padding: 12px;
+.info{
+    flex:1;
 }
 
-.button {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background: #4a6ea9;
-    padding: 12px;
-    font-weight: bold;
-    margin-top: 10px;
+.name{
+    font-size:20px;
+    font-weight:bold;
 }
 
-.footer {
-    text-align: center;
-    color: #777;
-    font-size: 12px;
-    margin: 20px;
+.author{
+    color:#666;
+    font-size:13px;
+}
+
+.version{
+    color:#888;
+    font-size:11px;
+    margin-top:3px;
+}
+
+.button{
+    display:inline-flex;
+    align-items:center;
+    text-decoration:none;
+    color:#333;
+    font:bold 15px Helvetica,Arial,sans-serif;
+    border:1px solid #8a8a8a;
+    border-radius:6px;
+    overflow:hidden;
+    background:linear-gradient(#ffffff,#d7d7d7);
+    box-shadow:inset 0 1px 0 #fff;
+}
+
+.plus{
+    width:22px;
+    height:22px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-right:1px solid #8a8a8a;
+    background:#efefef;
+    font-weight:bold;
+}
+
+.text{
+    padding:6px 18px;
+}
+
+.section{
+    background:#fff;
+    margin:10px;
+    border:1px solid #bdbdbd;
+}
+
+.section-title{
+    background:#efefef;
+    border-bottom:1px solid #d2d2d2;
+    padding:8px;
+    font-weight:bold;
+}
+
+.section-content{
+    padding:10px;
+    font-size:15px;
+}
+
+.unavailable{
+    color:#888;
+    font-style:italic;
+    text-align:center;
+    padding:20px;
+}
+
+.footer{
+    text-align:center;
+    color:#777;
+    font-size:12px;
+    margin:20px;
 }
 </style>
 </head>
@@ -65,40 +127,74 @@ body {
 <body>
 
 <div class="header">
-    <h1>Putrid Demon's Repo</h1>
+Putrid Demon's Repo
 </div>
 
-<div class="box">
-    <div class="box-title">
-        Bienvenido
-    </div>
+<div class="card">
 
-    <div class="box-content">
-        Gracias por visitar Putrid Demon's Repo.
+<div class="top">
 
-        <br><br>
+<!-- Sustituye github-mark.png por el nombre de tu icono -->
+<img src="github-mark.png" class="icon">
 
-        Encontrarás tweaks, aplicaciones y utilidades para dispositivos iOS.
+<div class="info">
 
-        <a class="button"
-        href="cydia://url/https://cydia.saurik.com/api/share#?source=https://jamillansantiago.github.io/putriddemon/">
-            Add to Cydia
-        </a>
-    </div>
+<div class="name">
+Putrid Demon's Repo
 </div>
 
-<div class="box">
-    <div class="box-title">
-        Repo URL
-    </div>
+<div class="author">
+Cydia Repository
+</div>
 
-    <div class="box-content">
-        https://jamillansantiago.github.io/putriddemon/
-    </div>
+<div class="version">
+v1.0 BETA REPO
+</div>
+
+</div>
+
+<a class="button"
+href="cydia://url/https://cydia.saurik.com/api/share#?source=https://jamillansantiago.github.io/putriddemon/">
+
+<span class="plus">+</span>
+<span class="text">ADD</span>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<div class="section-title">
+Description
+</div>
+
+<div class="section-content">
+My own repo with archived tweaks.
+</div>
+
+</div>
+
+<div class="section">
+
+<div class="section-title">
+More Functions
+</div>
+
+<div class="section-content">
+
+<div class="unavailable">
+This feature is currently unavailable.
+</div>
+
+</div>
+
 </div>
 
 <div class="footer">
-    © Putrid Demon's Repo
+© Putrid Demon's Repo
 </div>
 
 </body>
