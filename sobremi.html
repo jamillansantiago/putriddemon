@@ -10,9 +10,21 @@ body{
     margin:0;
     font-family:Helvetica,Arial,sans-serif;
     color:#333;
-    background:url("Wallpaper.gif") no-repeat center center fixed;
-    background-size:cover;
 }
+
+/* GIF de fondo */
+#bg{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+    pointer-events:none;
+}
+
+/* Barra superior */
 
 .header{
     background:linear-gradient(#7f95b1,#5d7696);
@@ -24,10 +36,14 @@ body{
     border-bottom:1px solid #4a5f7b;
 }
 
+/* Tarjetas */
+
 .section{
-    background:rgba(255,255,255,0.92);
+    background:rgba(255,255,255,.90);
     margin:12px;
     border:1px solid #bdbdbd;
+    border-radius:8px;
+    overflow:hidden;
 }
 
 .sectionTitle{
@@ -42,19 +58,28 @@ body{
     line-height:1.5;
 }
 
+/* Botón volver */
+
 .back{
     display:block;
-    margin:15px;
+    width:180px;
+    margin:20px auto;
     text-align:center;
     text-decoration:none;
-    color:#2d6db7;
+    color:#333;
+    padding:10px;
+    background:linear-gradient(#ffffff,#d8d8d8);
+    border:1px solid #999;
+    border-radius:8px;
     font-weight:bold;
 }
+
+/* Footer */
 
 .footer{
     text-align:center;
     color:white;
-    text-shadow:0 1px 3px #000;
+    text-shadow:0 1px 3px black;
     font-size:12px;
     padding:20px;
 }
@@ -62,6 +87,9 @@ body{
 </head>
 
 <body>
+
+<!-- Fondo animado -->
+<img src="Wallpaper.gif" id="bg" alt="Wallpaper">
 
 <div class="header">
 About Me
@@ -75,7 +103,13 @@ Putrid Demon
 
 <div class="sectionBody">
 
+<b>Repository Maintainer</b>
+
+<br><br>
+
 I maintain this repository to preserve tweaks, applications and utilities for legacy iOS devices.
+
+<br><br>
 
 The packages available here have been collected from various public repositories and archives to help keep older iPhones, iPads and iPods usable in the future.
 
@@ -86,6 +120,26 @@ The packages available here have been collected from various public repositories
 <br><br>
 
 Special thanks to all the original developers who created these packages.
+
+</div>
+
+</div>
+
+<div class="section">
+
+<div class="sectionTitle">
+Contact
+</div>
+
+<div class="sectionBody">
+
+GitHub:<br>
+<b>jamillansantiago</b>
+
+<br><br>
+
+Repository:<br>
+<b>Putrid Demon's Repo</b>
 
 </div>
 
