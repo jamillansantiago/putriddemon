@@ -2,43 +2,47 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Putrid Demon's Repo</title>
 
 <style>
 body{
     margin:0;
-    background:#d9d9d9;
+    background:#d7d7d7;
     font-family:Helvetica,Arial,sans-serif;
+    color:#333;
 }
 
+/* Barra superior estilo iOS 2/3 */
 .header{
-    background:linear-gradient(#6e87a6,#536f92);
-    color:#fff;
+    background:linear-gradient(#7f95b1,#5d7696);
+    color:white;
     text-align:center;
+    padding:12px;
     font-size:22px;
     font-weight:bold;
-    padding:12px;
-    border-bottom:1px solid #3d536d;
+    border-bottom:1px solid #4a5f7b;
 }
 
+/* Tarjeta principal */
 .card{
-    background:#fff;
-    margin:10px;
-    border:1px solid #bdbdbd;
+    background:white;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #bdbdbd;
+    padding:10px;
 }
 
+/* Parte superior */
 .top{
     display:flex;
     align-items:center;
-    padding:10px;
 }
 
 .icon{
     width:57px;
     height:57px;
     border-radius:10px;
-    border:1px solid #aaa;
+    border:1px solid #999;
     margin-right:10px;
 }
 
@@ -52,27 +56,34 @@ body{
 }
 
 .author{
-    color:#666;
     font-size:13px;
+    color:#666;
+    margin-top:2px;
 }
 
 .version{
+    margin-top:4px;
     color:#888;
     font-size:11px;
-    margin-top:3px;
+    font-weight:bold;
 }
+
+/* Botón ADD */
 
 .button{
     display:inline-flex;
     align-items:center;
     text-decoration:none;
     color:#333;
-    font:bold 15px Helvetica,Arial,sans-serif;
     border:1px solid #8a8a8a;
     border-radius:6px;
+    background:linear-gradient(#ffffff,#dadada);
     overflow:hidden;
-    background:linear-gradient(#ffffff,#d7d7d7);
     box-shadow:inset 0 1px 0 #fff;
+}
+
+.button:active{
+    background:linear-gradient(#d5d5d5,#ffffff);
 }
 
 .plus{
@@ -87,41 +98,46 @@ body{
 }
 
 .text{
-    padding:6px 18px;
-}
-
-.section{
-    background:#fff;
-    margin:10px;
-    border:1px solid #bdbdbd;
-}
-
-.section-title{
-    background:#efefef;
-    border-bottom:1px solid #d2d2d2;
-    padding:8px;
+    padding:6px 16px;
     font-weight:bold;
 }
 
-.section-content{
-    padding:10px;
-    font-size:15px;
+/* Secciones */
+
+.section{
+    background:white;
+    margin-top:12px;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #bdbdbd;
+}
+
+.sectionTitle{
+    padding:8px 10px;
+    background:#ececec;
+    border-bottom:1px solid #d0d0d0;
+    font-weight:bold;
+}
+
+.sectionBody{
+    padding:12px;
+    line-height:1.5;
 }
 
 .unavailable{
     color:#888;
-    font-style:italic;
     text-align:center;
-    padding:20px;
+    font-style:italic;
+    padding:18px;
 }
 
 .footer{
     text-align:center;
     color:#777;
     font-size:12px;
-    margin:20px;
+    padding:20px;
 }
 </style>
+
 </head>
 
 <body>
@@ -134,8 +150,7 @@ Putrid Demon's Repo
 
 <div class="top">
 
-<!-- Sustituye github-mark.png por el nombre de tu icono -->
-<img src="github-mark.png" class="icon">
+<img src="CydiaIcon.png" class="icon">
 
 <div class="info">
 
@@ -167,23 +182,23 @@ href="cydia://url/https://cydia.saurik.com/api/share#?source=https://jamillansan
 
 <div class="section">
 
-<div class="section-title">
+<div class="sectionTitle">
 Description
 </div>
 
-<div class="section-content">
-My own repo with archived tweaks.
+<div class="sectionBody">
+My own repository with archived tweaks, applications and utilities for legacy iOS devices.
 </div>
 
 </div>
 
 <div class="section">
 
-<div class="section-title">
+<div class="sectionTitle">
 More Functions
 </div>
 
-<div class="section-content">
+<div class="sectionBody">
 
 <div class="unavailable">
 This feature is currently unavailable.
@@ -194,8 +209,8 @@ This feature is currently unavailable.
 </div>
 
 <div class="footer">
-© Putrid Demon's Repo
+© 2026 Putrid Demon's Repo
 </div>
 
 </body>
-</html>
+    </html>
