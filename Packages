@@ -172,3 +172,26 @@ Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
 Description: safe mode safety extension (safe)
 
+Package: bootlace
+Version: 2.1.6
+Architecture: iphoneos-arm
+Filename: bootlace_2.1.6_iphoneos-arm.deb
+Maintainer: Repositorio
+Description: Herramienta Bootlace para iOS.
+
+Package: libactivator
+Version: 1.9.13~rc6
+Architecture: iphoneos-arm
+Filename: libactivator_1.9.13~rc6_iphoneos-arm.deb
+Maintainer: Repositorio
+Depends: mobilesubstrate
+Description: Librería Activator para gestos en iOS.
+
+Package: winterboard
+Version: 0.9.3919
+Architecture: iphoneos-arm
+Filename: winterboard_0.9.3919_iphoneos-arm.deb
+Maintainer: Repositorio
+Depends: mobilesubstrate
+Description: Motor de temas Winterboard para iOS.
+
